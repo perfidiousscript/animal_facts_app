@@ -22,15 +22,15 @@ module.exports = function(grunt) {
             },
             html: {
                 expand: true,
-                cwd: 'client/views/',
+                cwd: 'client/public/assets/views',
                 src: "*.html",
                 "dest": "server/public/assets/views/"
             },
             style: {
                 expand: true,
-                cwd: 'client/styles/',
+                cwd: 'client/public/assets/styles',
                 src: [
-                    "style.css"
+                    "stylesheet.css"
                 ],
                 "dest": "server/public/assets/styles/"
             }
